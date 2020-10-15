@@ -62,6 +62,11 @@ export const footerData = {
     },
     {
       id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/chandlerjklein',
+    },
+    {
+      id: nanoid(),
       name: 'soundcloud',
       url: 'https://soundcloud.com/seeke',
     },
