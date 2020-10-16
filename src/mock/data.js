@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: 'I have technical experience in Java, JavaScript, and Andorid development.',
   paragraphThree: 'If you have any questions feel free to email me!',
   resume:
-    'https://firebasestorage.googleapis.com/v0/b/chandlerklein.appspot.com/o/resume.pdf?alt=media&token=a724cf5b-1413-4148-a94a-8375e7d63625', // if no resume, the button will not show up
+    'https://firebasestorage.googleapis.com/v0/b/chandlerklein.appspot.com/o/resume.pdf?alt=media&token=0c0abd7a-c827-4a93-bdc3-f36c7672c80b', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
