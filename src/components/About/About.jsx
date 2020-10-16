@@ -58,6 +58,16 @@ const About = () => {
                     >
                       Resume
                     </a>
+                    <span style={{ marginLeft: '7px' }}>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href="https://firebasestorage.googleapis.com/v0/b/chandlerklein.appspot.com/o/triplebyte.JPG?alt=media&token=4e05ff15-7fee-458c-840e-ddaeff01b117"
+                      >
+                        Certificate
+                      </a>
+                    </span>
                   </span>
                 )}
               </div>
