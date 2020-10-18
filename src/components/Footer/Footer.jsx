@@ -10,6 +10,51 @@ const Footer = () => {
   return (
     <footer className="footer navbar-static-bottom">
       <Container>
+        <span>
+          <iframe
+            width="80%"
+            title="the-end"
+            height="300"
+            scrolling="no"
+            frameBorder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/912500287&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          />
+          <div
+            style={{
+              fontSize: '10px',
+              color: '#cccccc',
+              lineBreak: 'anywhere',
+              wordBreak: 'normal',
+              overflow: 'hidden',
+              whiteSpace: 'nowrap',
+              textOverflow: 'ellipsis',
+              fontFamily:
+                'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif',
+              fontWeight: '100',
+            }}
+          >
+            <a
+              href="https://soundcloud.com/seeke"
+              title="SEEKE!"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: '#cccccc', textDecoration: 'none' }}
+            >
+              SEEKE!
+            </a>{' '}
+            —{' '}
+            <a
+              href="https://soundcloud.com/seeke/the-end"
+              title="the end"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: '#cccccc', textDecoration: 'none' }}
+            >
+              the end
+            </a>
+          </div>
+        </span>
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
