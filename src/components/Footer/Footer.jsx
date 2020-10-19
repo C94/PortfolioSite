@@ -12,13 +12,13 @@ const Footer = () => {
       <Container>
         <span>
           <iframe
-            width="80%"
-            title="the-end"
-            height="300"
+            title="soundcloud embed"
+            width="100%"
+            height="166"
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/912500287&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/912977221&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
           />
           <div
             style={{
@@ -31,7 +31,7 @@ const Footer = () => {
               textOverflow: 'ellipsis',
               fontFamily:
                 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif',
-              fontWeight: '100',
+              fontWeight: 100,
             }}
           >
             <a
