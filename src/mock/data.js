@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: 'I have technical experience in Java, JavaScript, and Andorid development.',
   paragraphThree: 'If you have any questions feel free to email me!',
   resume:
-    'https://firebasestorage.googleapis.com/v0/b/chandlerklein.appspot.com/o/resume.pdf?alt=media&token=0c0abd7a-c827-4a93-bdc3-f36c7672c80b', // if no resume, the button will not show up
+    'https://firebasestorage.googleapis.com/v0/b/chandlerklein.appspot.com/o/chandler_klein_resume.pdf?alt=media&token=097b4b4d-486b-4d2e-a7b5-aa61bd25fc05', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -35,7 +35,7 @@ export const projectsData = [
     info:
       'MedForms is a HIPAA–compliant Android application for usage on a tablet that uses handwriting recognition and dynamically generates/exports consultation forms.',
     info2: '',
-    url: 'https://github.com/chandlerklein/medforms',
+    url: 'https://github.com/c94/medforms',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -58,7 +58,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/chandlerklein',
+      url: 'https://github.com/c94',
     },
     {
       id: nanoid(),
