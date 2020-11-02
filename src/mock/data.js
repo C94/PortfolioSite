@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'project.png',
     title: 'MedForms',
     info:
-      'MedForms is a HIPAA–compliant Android application for usage on a tablet that uses handwriting recognition and dynamically generates/exports consultation forms.',
+      '(Currently private for security reasons) MedForms is a HIPAA–compliant Android application for usage on a tablet that uses handwriting recognition and dynamically generates/exports consultation forms.',
     info2: '',
     url: 'https://github.com/c94/medforms',
     repo: '', // if no repo, the button will not show up
