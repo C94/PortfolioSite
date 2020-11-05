@@ -32,10 +32,43 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.png',
     title: 'MedForms',
-    info:
-      '(Currently private for security reasons) MedForms is a HIPAA–compliant Android application for usage on a tablet that uses handwriting recognition and dynamically generates/exports consultation forms.',
-    info2: '',
+    info: '🔒 Currently private for security reasons',
+    info2:
+      'MedForms is a HIPAA–compliant Android application for usage on a tablet that implements handwriting recognition and dynamically generates/exports consultation forms.',
     url: 'https://github.com/c94/medforms',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'phonebook.png',
+    title: 'React Phonebook',
+    info:
+      'A MERN stack (MongoDB, Express, React, Node.js) site hosted on Heroku that demonstrates REST API requests.',
+    info2: '',
+    url: 'https://github.com/C94/ReactPhonebook',
+    // repo is actually the 'See Live' now
+    repo: 'https://hidden-coast-29500.herokuapp.com/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'dijkstra.jpg',
+    title: 'Highways Shortest Path',
+    info: '☕ Java',
+    info2:
+      "An implementation of Dijkstra's algorithm that finds the shortest path between over 90,000 locations across the U.S. using data from the National Highway Planning Network.",
+    url: 'https://github.com/C94/Dijkstra',
+    // repo is actually the 'See Live' now
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'quadsolver.png',
+    title: 'QuadSolveR',
+    info:
+      'A quadratic equation solver written in the R programming language that demonstrates unit testing.',
+    info2: '',
+    url: 'https://github.com/C94/QuadSolveR',
+    // repo is actually the 'See Live' now
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -59,11 +92,6 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/c94',
-    },
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/chandlerjklein',
     },
     {
       id: nanoid(),
