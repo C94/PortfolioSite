@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "I'm a senior computer science student at Western Michigan University (graduating in December). My interests include software engineering, web development, and automation. ",
+    "I'm a senior computer science student at Western Michigan University graduating in December. My interests include software engineering, web development, and automation. ",
   paragraphTwo: 'I have technical experience in Java, JavaScript, and Andorid development.',
   paragraphThree: 'If you have any questions feel free to email me!',
   resume:
