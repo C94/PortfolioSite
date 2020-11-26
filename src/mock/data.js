@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'WMU-Fall20-Chandler-Klein.JPG',
   paragraphOne:
     "I'm a senior computer science student at Western Michigan University graduating in December. My interests include software engineering, web development, and automation. ",
   paragraphTwo: 'I have technical experience in Java, JavaScript, and Andorid development.',
