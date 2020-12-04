@@ -32,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.png',
     title: 'MedForms',
-    info: '🔒 Currently private for security reasons',
+    info: '🤖☕ Built with Android Studio and Java',
     info2:
       'MedForms is a HIPAA–compliant Android application for usage on a tablet that implements handwriting recognition and dynamically generates/exports consultation forms.',
     url: 'https://github.com/c94/medforms',
@@ -40,11 +40,20 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'spring_security.png',
+    title: 'Spring Security Demo',
+    info: '🍃🐘 Built with Spring and PostgreSQL',
+    info2:
+      'A web application hosted on an AWS EC2 instance that makes use of user authentication and authorization.',
+    url: 'http://3.140.13.117/',
+    repo: 'http://3.140.13.117/',
+  },
+  {
+    id: nanoid(),
     img: 'phonebook.png',
     title: 'React Phonebook',
-    info:
-      'A MERN stack (MongoDB, Express, React, Node.js) site hosted on Heroku that demonstrates REST API requests.',
-    info2: '',
+    info: '⚛️ Built with the MERN stack',
+    info2: 'A site hosted on Heroku that demonstrates REST API requests.',
     url: 'https://github.com/C94/ReactPhonebook',
     // repo is actually the 'See Live' now
     repo: 'https://hidden-coast-29500.herokuapp.com/', // if no repo, the button will not show up
@@ -53,7 +62,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'dijkstra.jpg',
     title: 'Highways Shortest Path',
-    info: '☕ Java',
+    info: '☕ Built with Java',
     info2:
       "An implementation of Dijkstra's algorithm that finds the shortest path between over 90,000 locations across the U.S. using data from the National Highway Planning Network.",
     url: 'https://github.com/C94/Dijkstra',
@@ -64,9 +73,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'quadsolver.png',
     title: 'QuadSolveR',
-    info:
-      'A quadratic equation solver written in the R programming language that demonstrates unit testing.',
-    info2: '',
+    info: '📊 Built with R',
+    info2: 'A quadratic equation solver that demonstrates effective unit testing.',
     url: 'https://github.com/C94/QuadSolveR',
     // repo is actually the 'See Live' now
     repo: '', // if no repo, the button will not show up
