@@ -58,7 +58,7 @@ const About = () => {
                         className="cta-btn cta-btn--resume"
                         href="https://triplebyte.com/tb/chandler-klein-ruva2xy/certificate/track/generalist"
                       >
-                        TripleByte
+                        Triplebyte
                       </a>
                     </span>
                     <span style={{ marginLeft: '7px' }}>
