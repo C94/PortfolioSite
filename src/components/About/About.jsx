@@ -4,10 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import resume from '../../images/resume.pdf';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -55,9 +56,19 @@ const About = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--resume"
-                        href="https://firebasestorage.googleapis.com/v0/b/chandlerklein.appspot.com/o/triplebyte.JPG?alt=media&token=4e05ff15-7fee-458c-840e-ddaeff01b117"
+                        href="https://triplebyte.com/tb/chandler-klein-ruva2xy/certificate/track/generalist"
                       >
-                        Certificate
+                        TripleByte
+                      </a>
+                    </span>
+                    <span style={{ marginLeft: '7px' }}>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href="https://www.udemy.com/certificate/UC-45007e42-0d38-45a0-9c4d-a8d4a418d7ea/"
+                      >
+                        Udemy
                       </a>
                     </span>
                   </span>

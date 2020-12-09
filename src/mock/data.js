@@ -19,11 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'WMU-Fall20-Chandler-Klein.JPG',
   paragraphOne:
-    "I'm a senior computer science student at Western Michigan University graduating in December. My interests include software engineering, web development, and automation. ",
-  paragraphTwo: 'I have technical experience in Java, JavaScript, and Andorid development.',
-  paragraphThree: 'If you have any questions feel free to email me!',
-  resume:
-    'https://firebasestorage.googleapis.com/v0/b/chandlerklein.appspot.com/o/chandler_klein_resume_redacted.pdf?alt=media&token=5f6ebd87-9cd2-4121-a3c5-7aef5066dfbc', // if no resume, the button will not show up
+    "I'm a senior computer science student at Western Michigan University graduating this month. My interests include software engineering, web development, and automation. Also, I'm pretty good at playing the piano!",
+  paragraphTwo:
+    "Currently I'm searching for Java software development positions that I can excel in. I have experience building applications with Java, JavaScript, and Android—currently, I'm building an application with Spring technologies.",
+  paragraphThree:
+    "If you'd like to get in contact, feel free to email me (info in resume)! Listed below are my resume and certificates.",
+  resume: 'About component pulling file', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
