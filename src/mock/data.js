@@ -41,6 +41,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'dashboard.PNG',
+    title: 'Monthly Expenses Tracker',
+    info: '🍃🅰️ Built with Spring and AngularJS',
+    info2:
+      'Work-in-progress full stack web application using a MySQL database, Spring (Boot, Web, Data) on the backend and AngularJS on the frontend.',
+    url: 'https://github.com/c94/expensetracker',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'spring_security.png',
     title: 'Spring Security Demo',
     info: '🍃🐘 Built with Spring and PostgreSQL',
