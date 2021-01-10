@@ -43,9 +43,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'dashboard.PNG',
     title: 'Monthly Expenses Tracker',
-    info: '🍃🅰️ Built with Spring and AngularJS',
+    info: '🍃🅰️ Built with Spring and Angular',
     info2:
-      'Work-in-progress full stack web application using a MySQL database, Spring (Boot, Web, Data) on the backend and AngularJS on the frontend.',
+      'Work-in-progress full stack web application using a MySQL database, Spring (Boot, Web, Data) on the backend and Angular on the frontend.',
     url: 'https://github.com/c94/expensetracker',
     repo: '', // if no repo, the button will not show up
   },
