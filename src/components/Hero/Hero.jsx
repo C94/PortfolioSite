@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
+import report from '../../images/final_report.pdf';
 import PortfolioContext from '../../context/context';
 
 const Header = () => {
@@ -35,9 +36,12 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
+              <a href={report} target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+                Technical Report
+              </a>
+              {/* <Link to="about" smooth duration={1000}>
                 {cta || 'Learn more'}
-              </Link>
+              </Link> */}
             </span>
           </p>
         </Fade>
