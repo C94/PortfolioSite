@@ -51,16 +51,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'spring_security.png',
-    title: 'Spring Security Demo',
-    info: '🍃🐘 Built with Spring and PostgreSQL',
-    info2:
-      'A web application hosted on an AWS EC2 instance that makes use of user authentication and authorization.',
-    url: 'http://3.140.13.117/',
-    repo: 'http://3.140.13.117/',
-  },
-  {
-    id: nanoid(),
     img: 'phonebook.png',
     title: 'React Phonebook',
     info: '⚛️ Built with the MERN stack',
